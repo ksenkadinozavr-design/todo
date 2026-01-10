@@ -3,7 +3,7 @@ package todo_list
 type TodoList struct {
 	Id          int    `json:"id"`
 	Title       string `json:"title"`
-	Description int    `json:"description"`
+	Description string `json:"description"`
 }
 type UsersList struct {
 	Id     int
@@ -13,7 +13,7 @@ type UsersList struct {
 type TodoItem struct {
 	Id          int    `json:"id"`
 	Title       string `json:"title"`
-	Description int    `json:"description"`
+	Description string `json:"description"`
 	Done        bool   `json:"done"`
 }
 type ListsItem struct {
